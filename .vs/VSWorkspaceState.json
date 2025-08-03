@@ -1,9 +1,14 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\C-Cumulative-1-main",
     "\\C-Cumulative-1-main\\Controllers"
   ],
   "SelectedNode": "\\C-Cumulative-1-main\\Controllers\\WeatherForecastController.cs",
+=======
+    ""
+  ],
+>>>>>>> 745d3ad28d9e3d96d4038389b947e917114ad74e
   "PreviewInSolutionExplorer": false
 }
