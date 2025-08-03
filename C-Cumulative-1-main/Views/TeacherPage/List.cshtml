@@ -1,0 +1,14 @@
+﻿@model School.Models.Teacher
+
+@{
+    ViewData["Title"] = "Teacher Details";
+}
+
+<h2>Teacher Info</h2>
+<table border="1" cellpadding="10">
+    <tr><th>ID</th><td>@Model.TeacherId</td></tr>
+    <tr><th>First Name</th><td>@Model.TeacherFName</td></tr>
+    <tr><th>Last Name</th><td>@Model.TeacherLName</td></tr>
+    <tr><th>Hire Date</th><td>@Model.HireDate.ToShortDateString()</td></tr>
+    <tr><th>Salary</th><td>@Model.Salary.ToString("C")</td></tr>
+</table>
