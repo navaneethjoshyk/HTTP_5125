@@ -1,0 +1,30 @@
+﻿@model School.Models.Teacher
+@{
+    ViewData["Title"] = "Delete Teacher";
+}
+
+<h2>Delete Teacher</h2>
+
+@if (Model is null)
+{
+    <div class="alert alert-warning">
+        Teacher not found. Nothing to delete.
+    </div>
+    <a class="btn btn-secondary" asp-controller="TeacherPage" asp-action="Index">Back</a>
+}
+else
+{
+    <p>
+        Are you sure you want to delete
+        <strong>@Model.TeacherFname @Model.TeacherLname</strong>?
+    </p>
+
+    <form asp-controller="TeacherPage"
+          asp-action="DeleteConfirmed"
+          asp-route-id="@Model.TeacherId"
+          method="post">
+        @Html.AntiForgeryToken()
+        <button type="submit" class="btn btn-danger">Yes, Delete</button>
+        <a class="btn btn-outline-secondary" asp-controller="TeacherPage" asp-action="Index">Cancel</a>
+    </form>
+}

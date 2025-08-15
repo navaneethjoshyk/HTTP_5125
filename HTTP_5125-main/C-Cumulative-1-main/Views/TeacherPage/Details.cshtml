@@ -1,0 +1,19 @@
+﻿@model School.Models.Teacher
+@{
+    ViewData["Title"] = "Teacher Details";
+}
+<h2>Teacher Info</h2>
+<table class="table">
+    <tr><th>ID</th><td>@Model.TeacherId</td></tr>
+    <tr><th>First Name</th><td>@Model.TeacherFname</td></tr>
+    <tr><th>Last Name</th><td>@Model.TeacherLname</td></tr>
+    <tr><th>Employee #</th><td>@Model.EmployeeNumber</td></tr>
+    <tr><th>Hire Date</th><td>@Model.HireDate.ToString("yyyy-MM-dd")</td></tr>
+    <tr><th>Salary</th><td>@Model.Salary</td></tr>
+    <tr><th>Work Phone</th><td>@(Model.TeacherWorkPhone ?? "(none)")</td></tr>
+</table>
+<p>
+    <a class="btn btn-outline-secondary" href="/Teacher">Back</a>
+    <a class="btn btn-danger" href="/Teacher/Delete/@Model.TeacherId">Delete</a>
+</p>
+

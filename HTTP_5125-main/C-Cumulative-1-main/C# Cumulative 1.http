@@ -1,0 +1,6 @@
+@C__Cumulative_1_HostAddress = http://localhost:5145
+
+GET {{C__Cumulative_1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,37 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Assignement__
+build_property.RootNamespace = Assignement__
+build_property.ProjectDir = C:\Work and class\Sem 1\HTTPS-5125\HTTP_5125-main Cumulative 3\HTTP_5125-main\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Work and class\Sem 1\HTTPS-5125\HTTP_5125-main Cumulative 3\HTTP_5125-main
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Work and class/Sem 1/HTTPS-5125/HTTP_5125-main Cumulative 3/HTTP_5125-main/C-Cumulative-1-main/Views/TeacherPage/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Qy1DdW11bGF0aXZlLTEtbWFpblxWaWV3c1xUZWFjaGVyUGFnZVxEZWxldGVDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work and class/Sem 1/HTTPS-5125/HTTP_5125-main Cumulative 3/HTTP_5125-main/C-Cumulative-1-main/Views/TeacherPage/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Qy1DdW11bGF0aXZlLTEtbWFpblxWaWV3c1xUZWFjaGVyUGFnZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work and class/Sem 1/HTTPS-5125/HTTP_5125-main Cumulative 3/HTTP_5125-main/C-Cumulative-1-main/Views/TeacherPage/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Qy1DdW11bGF0aXZlLTEtbWFpblxWaWV3c1xUZWFjaGVyUGFnZVxOZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work and class/Sem 1/HTTPS-5125/HTTP_5125-main Cumulative 3/HTTP_5125-main/C-Cumulative-1-main/Views/TeacherPage/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Qy1DdW11bGF0aXZlLTEtbWFpblxWaWV3c1xUZWFjaGVyUGFnZVxTaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

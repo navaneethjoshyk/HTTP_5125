@@ -1,0 +1,48 @@
+﻿@model IEnumerable<School.Models.Teacher>
+@{
+    ViewData["Title"] = "Teachers";
+}
+<h2>Teachers</h2>
+
+<p>
+    <a class="btn btn-primary" href="/Teacher/New">Add Teacher</a>
+</p>
+
+@if (TempData["Success"] != null)
+{
+     <div class="alert alert-success">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+     <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>First</th>
+            <th>Last</th>
+            <th>Hire Date</th>
+            <th>Salary</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var t in Model)
+        {
+            <tr>
+                <td>@t.TeacherId</td>
+                <td>@t.TeacherFname</td>
+                <td>@t.TeacherLname</td>
+                <td>@t.HireDate.ToString("yyyy-MM-dd")</td>
+                <td>@t.Salary.ToString("C")</td>
+                <td>
+                    <a asp-controller="TeacherPage" asp-action="Details" asp-route-id="@t.TeacherId">Details</a> |
+                    <a asp-controller="TeacherPage" asp-action="Edit" asp-route-id="@t.TeacherId">Edit</a> |
+                    <a asp-controller="TeacherPage" asp-action="Delete" asp-route-id="@t.TeacherId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
